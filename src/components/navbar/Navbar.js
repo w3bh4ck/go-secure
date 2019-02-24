@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg " style={{ height: "5rem" }}>
                 <a className="navbar-brand logo" href="#">Go <span className="secure">Secure</span></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon">Menu</span>
+                    <span className="navbar-toggler-icon"><i class="fas fa-shield-alt secure-mobile-icon"></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">

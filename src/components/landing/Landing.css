@@ -19,5 +19,8 @@
     border-radius: 14px;
     color: #ffffff;
     font-family: 'Fredoka One', cursive;
-    margin: 2rem;
+}
+
+.row {
+    margin: 5px;
 }
