@@ -1,0 +1,32 @@
+/* 
+font-family: 'Mogra', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Fredoka One', cursive;
+*/
+
+nav {
+    height: 5rem !important;
+    background-color: rgba(247, 247, 247, 0.3);
+    color: #ffffff !important;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Fredoka One', cursive;
+}
+
+nav a:hover {
+    color: #339933;
+}
+
+.navbar-brand{
+    font-family: 'Mogra', cursive;
+    font-size: 2.5rem;
+}
+
+.secure {
+    color: #339933;
+}
+
