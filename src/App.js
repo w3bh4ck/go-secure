@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
 import Landing from './components/landing/Landing';
+import Appointment from './appointment/Appointment';
+import { ToastContainer } from 'react-toastify';
+
 
 class App extends Component {
   render() {
@@ -11,6 +14,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route path="/" exact component={Landing} />
+            <Route path="/appointment" exact component={Appointment} />
           </Switch>
         </BrowserRouter>
       </div>

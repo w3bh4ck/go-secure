@@ -1,0 +1,15 @@
+.appointment {
+    margin-top: 5rem
+}
+
+.form-section {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #e19b9f , #ca4e54); ;
+    border-radius: 12px;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.previous{
+    cursor: pointer;
+}
