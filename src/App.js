@@ -5,6 +5,8 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom'
 import Landing from './components/landing/Landing';
 import Appointment from './appointment/Appointment';
 import { ToastContainer } from 'react-toastify';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
 
 
 class App extends Component {
@@ -14,7 +16,8 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route path="/" exact component={Landing} />
-            <Route path="/appointment" exact component={Appointment} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
           </Switch>
         </BrowserRouter>
       </div>
